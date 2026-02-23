@@ -1,0 +1,39 @@
+#divone{
+    height:100px;
+    background-color:pink;
+    width:100px;
+    transition-property:transform;
+}
+#divone:hover{
+    transform:scale(2);
+    transition-timing-function:ease-in;
+    transition-duration:3s;
+    transition-delay:2s;
+}
+#divtwo{
+height:100px;
+width:100px;
+background-color:yellow;
+transition-property:transform;
+}
+
+#divtwo:hover{
+    background-color:red;
+    transform:skew(45deg);
+    transition-duration:5s;
+    transition-delay:2s;
+    transition-timing-function:linear;
+}
+#divthree{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+
+}
+#divthree:hover{
+    background-color:blue;
+    transform:rotate(45deg);
+    transition-duration:2s;
+    transition-delay:3s;
+    transition-timing-function:ease-out;
+}
