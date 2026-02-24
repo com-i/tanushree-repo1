@@ -37,3 +37,107 @@ transition-property:transform;
     transition-delay:3s;
     transition-timing-function:ease-out;
 }
+#divfour{
+    background-color:red;
+    height:100px;
+    width:100px;
+    transition-property:transform;
+}
+#divfour:hover{
+    transform:translate(300px);
+    background-color:green;
+    transition-duration:2s;
+    transition-delay:2s;
+    transition-timing-function:ease-out;
+}
+#divfive{
+    height:200px;
+    width:100px;
+    border-radius:50%;
+    background-color:blue;
+    transition-property:transform;
+}
+#divfive:hover{
+background-color:yellow;
+transition-duration:3s;
+transition-delay:2s;
+transition-timing-function:ease-in-out;
+transform:rotate(90deg);
+}
+#divsix{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    transition-property:transform;
+    background-color:red;
+}
+#divsix:hover{
+  background-color:green;
+  transform:scale(3);
+  border-radius:0%;
+  transition-timing-function:linear;
+  transition-duration:3s;
+  transition-delay:2s;
+}
+#divseven{
+    height:100px;
+    width:300px;
+    background-color:pink;
+    transition-property:transform;
+
+}
+#divseven:hover{
+    background-color:blue;
+    transition-duration:6s;
+    transition-delay:2s;
+    transition-timing-function:linear;
+    transform:skew(60deg);
+}
+#diveight{
+    height:100px;
+    width:500px;
+    background-color:green;
+    transition-property:transform;
+}
+#diveight:hover{
+    height:200px;
+    width:1000px;
+    background-color:blue;
+    transition-duration:2s;
+    transition-delay:2s;
+    transition-timing-function:ease-in-out;
+}
+#divnine{
+    height:300px;
+    width:300px;
+    background-color:red;
+    transition-property:transform;
+}
+#divnine:hover{
+transform:scale(3);
+transition-delay:2s;
+transition-duration:3s;
+transition-timing-function:ease-in-out;
+border-radius:50%;
+background-color:orange;
+}
+body{
+    background-color:black;
+}
+#divten{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    transition-property:transform;
+    border-radius:50%;
+}
+#divten:hover{
+ border-radius:500px;
+ height:400px;
+ width:400px;
+ background-color:yellow;
+ transition-duration:3s;
+ transition-delay:2s;
+ transition-timing-function:linear;
+ transform:rotate(60deg);
+}
